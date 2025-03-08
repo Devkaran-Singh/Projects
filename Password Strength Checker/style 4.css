@@ -1,0 +1,99 @@
+*{
+    padding : 0;
+    margin : 0;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+body{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color : #262728;
+    height : 95vh;
+}
+
+.container{
+    height : 60vh;
+    width : 65vh;
+    background-color : #262728;
+    position : absolute;
+    box-shadow : 20px 20px 20px rgba(0,0,0,0.75),
+    15px 15px 15px rgba(0,0,0,0.5),
+    10px 10px 10px  rgba(0,0,0,0.25),
+    inset 20px 20px 50px rgba(0,0,0,0.25),
+    inset 10px 10px 40px rgba(0,0,0,0.25),
+    inset 15px 15px 30px  rgba(0,0,0,0.25);
+
+}
+
+#heading{
+    text-align : center;
+    color : #466365;
+    padding-top : 3rem;
+}
+
+.enter{
+    display : flex;
+    margin : 7rem 0 0 7rem;
+    width : 50%;
+    background-color: white;
+    background-color : #262728;
+    position : absolute;
+    box-shadow : 10px 10px 50px rgba(0,0,0,0.75),
+    5px 5px 40px rgba(0,0,0,0.25);
+    border : 2px solid #262728;
+}
+
+/* .hide3{
+    animation : colorRotate 1.2s ease-in-out 0s infinite normal;
+} */
+
+.enter input{
+    background-color : #262728;
+    border : none;
+    color : white;
+    padding-left : 0.5rem;  
+    height : 2.75rem;
+    outline : none;
+    font-size : 1rem;
+}
+
+.icon{
+    display: flex;
+    width : auto;
+}
+
+.icon i{
+    padding-top : 0.9rem;
+    color : white;
+}
+
+i:hover{
+    cursor : pointer;
+    opacity : 80%;
+}
+
+.hide1{
+    text-decoration : line-through;
+    text-decoration-thickness: 3px;
+}
+
+.message{
+    margin-top : 15rem;
+    text-align : center;
+    font-weight : 700;
+    font-size : 2rem;
+}
+
+.hide2{
+    display : none;
+}
+
+/* @keyframes colorRotate{
+    from{
+        border : none;
+    }
+    to{
+        border : 2px solid 
+    }
+} */
